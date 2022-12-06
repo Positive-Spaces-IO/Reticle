@@ -190,10 +190,6 @@ binary-extensions@^1.0.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.8.0.tgz#48ec8d16df4377eae5fa5884682480af4d95c774"
 
-bindings@1.2.x, bindings@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
-
 block-stream@*:
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/block-stream/-/block-stream-0.0.9.tgz#13ebfe778a03205cfe03751481ebb4b3300c126a"
@@ -244,13 +240,6 @@ buffer@^4.9.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
     isarray "^1.0.0"
-
-bufferutil@1.2.x:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-1.2.1.tgz#37be5d36e1e06492221e68d474b1ac58e510cbd7"
-  dependencies:
-    bindings "1.2.x"
-    nan "^2.0.5"
 
 builtin-status-codes@^2.0.0:
   version "2.0.0"
@@ -841,13 +830,13 @@ graceful-fs@^4.1.2:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gun@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/gun/-/gun-0.2.5.tgz#16caa72bf49c9b479ce4958e438cdf2338179087"
+gun@^0.3.93:
+  version "0.3.9991"
+  resolved "https://registry.yarnpkg.com/gun/-/gun-0.3.9991.tgz#f755da39e16fe892f27ee1f5f8b332f4c34a512f"
   dependencies:
     aws-sdk "~>2.0.0"
     formidable "~>1.0.15"
-    ws "~>0.8.0"
+    ws "~>1.0.1"
 
 har-validator@~2.0.6:
   version "2.0.6"
@@ -1035,7 +1024,7 @@ is-path-inside@^1.0.0:
 
 is-posix-bracket@^0.1.0:
   version "0.1.1"
-  resolved "http://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
+  resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
 
 is-primitive@^2.0.0:
   version "2.0.0"
@@ -1237,7 +1226,7 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-nan@^2.0.5, nan@^2.3.0, nan@~2.4.0:
+nan@^2.3.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
@@ -1451,8 +1440,8 @@ punycode@^1.2.4, punycode@^1.4.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
 qs@~6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
+  version "6.3.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.3.tgz#645c23bd6def4d552f258f0aadfeea6fd57f5a86"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -1891,13 +1880,6 @@ user-home@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-utf-8-validate@1.2.x:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-1.2.2.tgz#8bb871a4741e085c70487ca7acdbd7d6d36029eb"
-  dependencies:
-    bindings "~1.2.1"
-    nan "~2.4.0"
-
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -1991,15 +1973,12 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@~>0.8.0:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-0.8.1.tgz#6b65273b99193c5f067a4cf5809598f777e3b759"
+ws@~>1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-1.0.1.tgz#7d0b2a2e58cddd819039c29c9de65045e1b310e9"
   dependencies:
     options ">=0.0.5"
     ultron "1.0.x"
-  optionalDependencies:
-    bufferutil "1.2.x"
-    utf-8-validate "1.2.x"
 
 xml2js@0.2.6:
   version "0.2.6"
